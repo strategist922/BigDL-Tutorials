@@ -1,57 +1,48 @@
-# BigDL-Tutorials
+# Data Science on Apache Spark
 
+A step-by-step introduction to data science based on Apache Spark and BigDL framework. 
 
-## Getting Started
+### Topics
+1. RDD
+2. DataFrame
+3. SparkSQL
+4. StructureStreaming
+5. Simple Multiplication
+6. Linear Regression
+7. Logistic Regression
+8. [Introduction to MNIST](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/introduction_to_mnist.ipynb)
+8. Multilayer Perceptron
+9. [Feedforward Neural Network](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/deep_feed_forward_neural_network.ipynb)
+10. [Convolutional Neural Network](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/cnn.ipynb)
+11. [Recurrent Neural Network](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/rnn.ipynb)
+12. [LSTM](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/lstm.ipynb)
+13. Bi-directional RNN
+14. [Auto-encoder](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/autoencoder.ipynb)
 
 ### Environment
 
-```
-Mac OS Sierra
-Python 2.7
-Apache Spark 1.4.1
-Jupyter Notebook 
-```
-
-### Intall Python2.7
-
-Open terminal and type
-```
-brew install python
-```
-Check Python version
-```
-Python --version
-```
-
-### Install Apache Spark
-Open terminal and type
-```
-brew install apache-spark
-```
-### Install Jupyter
-Open terminal and type
-```
-pip install Jupyter
-```
-### Link Spark with IPython Notebook
-Open terminal and type
-```
-echo "export PATH=$PATH:/usr/local/Cellar/apache-spark/1.4.1/bin" >> .profile
-echo "export PYSPARK_DRIVER_PYTHON=ipython" >> .profile
-echo "export PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark" >> .profile
-```
-Now you can source it to make changes available in this termial
-
-```
-source .profile
-```
++ Mac OS/Linux
++ Python 2.7
++ Apache Spark 2.1.0
++ Jupyter Notebook 4.1
++ BigDL ([Linux64](https://repo1.maven.org/maven2/com/intel/analytics/bigdl/dist-spark-2.1.0-scala-2.11.8-linux64/0.1.0/dist-spark-2.1.0-scala-2.11.8-linux64-0.1.0-dist.zip)|[Mac OS](https://repo1.maven.org/maven2/com/intel/analytics/bigdl/dist-spark-2.1.0-scala-2.11.8-mac/0.1.0/dist-spark-2.1.0-scala-2.11.8-mac-0.1.0-dist.zip))
 
 ### Run Jupyter
-Open the termial, type `pyspark`. If Spark is correctly linked with Jupyter notebook, the browser should open the Jupyter page. Then open a new notebook, type `sc`. If succeed, you should see something as follows in the screen:
+You can launch the Jupyter notebook as follows:
 
 ```
-In [1]: sc
-Out[1]: <pyspark.context.SparkContext at 0x1049bdf90>
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook --notebook-dir=./ --ip=* --no-browser"
+export BigDL_HOME= where the downloaded file unzipped.
 ```
-
-
+```
+$ source ${BigDL_HOME}/bin/bigdl.sh
+$ pyspark \
+  --master local[4] \
+  --properties-file ${BigDL_HOME}/conf/spark-bigdl.conf \
+  --py-files ${BigDL_HOME}/lib/bigdl-0.1.0-python-api.zip \
+  --jars ${BigDL_HOME}/lib/bigdl-0.1.0-jar-with-dependencies.jar \
+  --conf spark.driver.extraClassPath=${BigDL_HOME}/lib/bigdl-0.1.0-jar-with-dependencies.jar \
+  --conf spark.executor.extraClassPath=${BigDL_HOME}/lib/bigdl-0.1.0-jar-with-dependencies.jar
+```
+If succeed, you can navigate the Jupyter notebook using your browser.
