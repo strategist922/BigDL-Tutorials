@@ -3,33 +3,29 @@
 A step-by-step introduction to data science based on Apache Spark and BigDL framework. 
 
 ### Topics
-* Simple Multiplication
-* Linear Regression
-* Logistic Regression
-* Multilayer Perceptron
-* Convolutional Neural Network
-* Recurrent Neural Network
-* LSTM
-* Bi-directional RNN
-* Auto-encoder
+1. RDD
+2. DataFrame
+3. SparkSQL
+4. StructureStreaming
+5. Simple Multiplication
+6. Linear Regression
+7. Logistic Regression
+8. [Introduction to MNIST](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/introduction_to_mnist.ipynb)
+8. Multilayer Perceptron
+9. [Feedforward Neural Network](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/deep_feed_forward_neural_network.ipynb)
+10. [Convolutional Neural Network](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/cnn.ipynb)
+11. [Recurrent Neural Network](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/rnn.ipynb)
+12. [LSTM](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/lstm.ipynb)
+13. Bi-directional RNN
+14. [Auto-encoder](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/autoencoder.ipynb)
 
 ### Environment
 
 + Mac OS/Linux
 + Python 2.7
 + Apache Spark 2.1.0
-+Jupyter Notebook 
-
-### Download BigDL 0.1.0
-
-+ Spark 2.1.0 and Linux64
-
-https://repo1.maven.org/maven2/com/intel/analytics/bigdl/dist-spark-2.1.0-scala-2.11.8-linux64/0.1.0/dist-spark-2.1.0-scala-2.11.8-linux64-0.1.0-dist.zip
-+ Spark 2.1.0 and Mac OS
-
-https://repo1.maven.org/maven2/com/intel/analytics/bigdl/dist-spark-2.1.0-scala-2.11.8-mac/0.1.0/dist-spark-2.1.0-scala-2.11.8-mac-0.1.0-dist.zip
-
-Once you've downloaded above file, unzip it in some directory. 
++ Jupyter Notebook 4.1
++ BigDL ([Linux64](https://repo1.maven.org/maven2/com/intel/analytics/bigdl/dist-spark-2.1.0-scala-2.11.8-linux64/0.1.0/dist-spark-2.1.0-scala-2.11.8-linux64-0.1.0-dist.zip)|[Mac OS](https://repo1.maven.org/maven2/com/intel/analytics/bigdl/dist-spark-2.1.0-scala-2.11.8-mac/0.1.0/dist-spark-2.1.0-scala-2.11.8-mac-0.1.0-dist.zip))
 
 ### Run Jupyter
 You can launch the Jupyter notebook as follows:
