@@ -3,10 +3,10 @@
 A step-by-step introduction to data science based on Apache Spark and BigDL framework. 
 
 ### Topics
-1. RDD
-2. DataFrame
-3. SparkSQL
-4. StructureStreaming
+1. [RDD](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/spark_basics/RDD.ipynb) 
+2. [DataFrame](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/spark_basics/DataFrame.ipynb)
+3. [SparkSQL](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/spark_basics/spark_sql.ipynb)
+4. [StructureStreaming](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/spark_basics/structured_streaming.ipynb)
 5. Simple Multiplication
 6. Linear Regression
 7. Logistic Regression
