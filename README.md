@@ -22,7 +22,7 @@ A step-by-step introduction to data science based on Apache Spark and BigDL fram
 
 + Mac OS/Linux
 + Python 2.7
-+ [Apache Spark 2.1.0](http://spark.apache.org/downloads.html)
++ [Apache Spark 2.1.0](http://spark.apache.org/docs/2.1.0/)
 + [Jupyter Notebook 4.1](http://jupyter.org/install.html)
 + [BigDL](https://github.com/intel-analytics/BigDL)
 
