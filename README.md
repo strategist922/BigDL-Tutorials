@@ -7,7 +7,7 @@ A step-by-step introduction to data science based on Apache Spark and BigDL fram
 2. [DataFrame](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/spark_basics/DataFrame.ipynb)
 3. [SparkSQL](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/spark_basics/spark_sql.ipynb)
 4. [StructureStreaming](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/spark_basics/structured_streaming.ipynb)
-5. Simple Multiplication
+5. [Forward and backward](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/forward_and_backward.ipynb)
 6. [Linear Regression](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/linear_regression.ipynb)
 7. [Introduction to MNIST](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/introduction_to_mnist.ipynb)
 8. [Logistic Regression](https://github.com/intel-analytics/BigDL-Tutorials/blob/master/notebooks/neural_networks/logistic_regression.ipynb)
@@ -22,8 +22,8 @@ A step-by-step introduction to data science based on Apache Spark and BigDL fram
 
 + Mac OS/Linux
 + Python 2.7
-+ Apache Spark 2.1.0
-+ Jupyter Notebook 4.1
++ [Apache Spark 2.1.0](http://spark.apache.org/downloads.html)
++ [Jupyter Notebook 4.1](http://jupyter.org/install.html)
 + [BigDL](https://github.com/intel-analytics/BigDL)
 
 ### Run Jupyter
