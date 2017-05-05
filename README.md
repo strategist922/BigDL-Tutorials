@@ -24,7 +24,7 @@ A step-by-step introduction to data science based on Apache Spark and BigDL fram
 + Python 2.7
 + Apache Spark 2.1.0
 + Jupyter Notebook 4.1
-+ BigDL ([Linux64](https://repo1.maven.org/maven2/com/intel/analytics/bigdl/dist-spark-2.1.0-scala-2.11.8-linux64/0.1.0/dist-spark-2.1.0-scala-2.11.8-linux64-0.1.0-dist.zip)|[Mac OS](https://repo1.maven.org/maven2/com/intel/analytics/bigdl/dist-spark-2.1.0-scala-2.11.8-mac/0.1.0/dist-spark-2.1.0-scala-2.11.8-mac-0.1.0-dist.zip))
++ [BigDL](https://github.com/intel-analytics/BigDL)
 
 ### Run Jupyter
 You can launch the Jupyter notebook as follows:
